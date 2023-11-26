@@ -36,6 +36,7 @@ class ViewController: UIViewController {
         }
         print("")
         print("Сумма целых чисел : \(intSumTotal)")
+        print("")
         
         for i in numberArray {
             let fracArray: Float = Float(i.truncatingRemainder(dividingBy: 1))
