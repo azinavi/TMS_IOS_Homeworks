@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         
         for i in numberArray {
             let intArray: Int = Int(i)
-            print("Целое числа: \(intArray)")
+            print("Целое число: \(intArray)")
             intSumTotal += intArray
         }
         print("")
@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         
         for i in numberArray {
             let fracArray: Float = Float(i.truncatingRemainder(dividingBy: 1))
-            print("Целые числа: \(fracArray)")
+            print("Дробное число: \(fracArray)")
             fracSumTotal += fracArray
         }
         print("")
