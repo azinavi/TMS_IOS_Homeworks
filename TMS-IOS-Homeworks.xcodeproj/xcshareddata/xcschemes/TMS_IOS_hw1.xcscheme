@@ -17,7 +17,7 @@
                BlueprintIdentifier = "AD2957872B0F0F8100AAF3AF"
                BuildableName = "TMS_IOS_hw1.app"
                BlueprintName = "TMS_IOS_hw1"
-               ReferencedContainer = "container:TMS_IOS_hw1.xcodeproj">
+               ReferencedContainer = "container:TMS-IOS-Homeworks.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,7 +46,7 @@
             BlueprintIdentifier = "AD2957872B0F0F8100AAF3AF"
             BuildableName = "TMS_IOS_hw1.app"
             BlueprintName = "TMS_IOS_hw1"
-            ReferencedContainer = "container:TMS_IOS_hw1.xcodeproj">
+            ReferencedContainer = "container:TMS-IOS-Homeworks.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -63,7 +63,7 @@
             BlueprintIdentifier = "AD2957872B0F0F8100AAF3AF"
             BuildableName = "TMS_IOS_hw1.app"
             BlueprintName = "TMS_IOS_hw1"
-            ReferencedContainer = "container:TMS_IOS_hw1.xcodeproj">
+            ReferencedContainer = "container:TMS-IOS-Homeworks.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
