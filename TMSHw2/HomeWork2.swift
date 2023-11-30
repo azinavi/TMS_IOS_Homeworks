@@ -1,6 +1,6 @@
 //
 //  HomeWork2.swift
-//  TMS_IOS_hw1
+//  TMS-IOS-Homeworks
 //
 //  Created by azinavi on 30/11/23.
 //
@@ -12,12 +12,11 @@ class HomeWork2: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        //  Homework 2
+        //      Homework 2
         
         // 1.Универсальные функции сложения, вычитания, умножения и
         // деления (перегрузка функций)
-        func calculate(_ num1: Int, operation: String, _ num2: Int) {
+        func calculate(_ num1: Double, operation: String, _ num2: Double) {
             if operation == "+" {
                 print(num1 + num2)
             } else if operation == "-" {
@@ -27,7 +26,7 @@ class HomeWork2: UIViewController {
             } else if operation == "/" {
                 print(num1 / num2)
             } else {
-                print("ОШИБКА!!! Передайте правильный арифметический оператор" )
+                print("ОШИБКА!!! Передайте правильный арифметический оператор")
             }
         }
         
@@ -40,9 +39,9 @@ class HomeWork2: UIViewController {
             var sum: Int = 0
             
             for i in str {
-                let num1: Int = 0
+                let _: Int = 0
                 let numfromStr: String = String (i)
-                var num: Int = Int(numfromStr)!
+                let num: Int = Int(numfromStr)!
                 sum += num
             }
             print(sum)
@@ -66,10 +65,10 @@ class HomeWork2: UIViewController {
         
         // 4.Циклический вызов функций - поломать приложение
         func errorfunction(_ a: Int, _ b: Int) -> Int {
-            return a + b
-            
-            print(errorfunction(1, 2))
+            return (a + b)
         }
+        
+        print(errorfunction(1, 2))
         
         
         // 5.Функция возведения в степень с дефолтным параметром
@@ -82,5 +81,46 @@ class HomeWork2: UIViewController {
         }
         
         exponentiation(num: 4, degreeNum: 5)
+        
+        
+        // 6.Универсальные функции сложения, вычитания, умножения и деления через замыкание
+        //   Замыкание внутри которой при вызове происходит увеличение счётчика на +1
+        //   Замыкание в котором ты проверяешь полил ли ты цветок, если нет то напоминание полить цветок
+        //   Выполнить любое замыкание внутри замыкания по очереди/ замыкание внутри любой функции
+        
+        // Функции сложения, вычитания, умножения и деления через замыкание
+        let result = {(num1: Double, str: String, num2: Double) in
+            if str == "+" {
+                print(num1 + num2)
+            } else if str == "-" {
+                print(num1 - num2)
+            } else if str == "*" {
+                print(num1 * num2)
+            } else if str == "/" {
+                print(num1 / num2)
+            } else {
+                print("ОШИБКА!!! Передайте правильный арифметический оператор" )
+            }
+        }
+        
+        result(12, "/", 10)
+        
+        
+        // Замыкание в котором ты проверяешь полил ли ты цветок, если нет то напоминание полить цветок
+        let isWateredFlowers = {(booling: Bool) in
+            if booling == true {
+                print("Вы полили цветы")
+            } else {
+                print("Вы должны полить цветы!")
+            }
+        }
+        
+        isWateredFlowers(true)
+        
+        
+        // Замыкание внутри которой при вызове происходит увеличение счётчика на +1
+        var counter = {(num: Int) in num + 1 }
+        
+        print(counter(55))
     }
 }

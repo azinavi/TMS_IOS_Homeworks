@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  TMS_IOS_hw1
+//  TMS-IOS-Homeworks
 //
 //  Created by azinavi on 23/11/23.
 //
@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //    ДЗ:
+        //      Homework 1
         //    • сумма отдельно целых и отдельно дробных частей чисел 2.5, 9.7, 6.9, 8.2
         //     *** проверка, является ли число четным
         //
