@@ -13,7 +13,10 @@
 		AD2957932B0F0F8100AAF3AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD2957912B0F0F8100AAF3AF /* Main.storyboard */; };
 		AD2957952B0F0F8200AAF3AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD2957942B0F0F8200AAF3AF /* Assets.xcassets */; };
 		AD2957982B0F0F8200AAF3AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD2957962B0F0F8200AAF3AF /* LaunchScreen.storyboard */; };
+		AD6ED16D2B2257CB00E0B81B /* BookEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6ED16C2B2257CB00E0B81B /* BookEnum.swift */; };
+		AD6ED16F2B2260DD00E0B81B /* ClothesEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6ED16E2B2260DD00E0B81B /* ClothesEnums.swift */; };
 		ADB21E012B18988900AC8342 /* HomeWork2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB21E002B18988900AC8342 /* HomeWork2.swift */; };
+		ADDFAE332B1F76ED003A2EEA /* HomeWork3.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDFAE322B1F76ED003A2EEA /* HomeWork3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +28,10 @@
 		AD2957942B0F0F8200AAF3AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD2957972B0F0F8200AAF3AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD2957992B0F0F8200AAF3AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD6ED16C2B2257CB00E0B81B /* BookEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookEnum.swift; sourceTree = "<group>"; };
+		AD6ED16E2B2260DD00E0B81B /* ClothesEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothesEnums.swift; sourceTree = "<group>"; };
 		ADB21E002B18988900AC8342 /* HomeWork2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWork2.swift; sourceTree = "<group>"; };
+		ADDFAE322B1F76ED003A2EEA /* HomeWork3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWork3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,7 @@
 		AD29577F2B0F0F8100AAF3AF = {
 			isa = PBXGroup;
 			children = (
+				ADDFAE312B1F756B003A2EEA /* TMSHw3 */,
 				ADB21E022B1898D200AC8342 /* Main Folder */,
 				ADB21DFF2B18987000AC8342 /* TMSHw2 */,
 				AD29578A2B0F0F8100AAF3AF /* TMSHw1 */,
@@ -84,6 +91,16 @@
 				AD2957962B0F0F8200AAF3AF /* LaunchScreen.storyboard */,
 			);
 			path = "Main Folder";
+			sourceTree = "<group>";
+		};
+		ADDFAE312B1F756B003A2EEA /* TMSHw3 */ = {
+			isa = PBXGroup;
+			children = (
+				ADDFAE322B1F76ED003A2EEA /* HomeWork3.swift */,
+				AD6ED16C2B2257CB00E0B81B /* BookEnum.swift */,
+				AD6ED16E2B2260DD00E0B81B /* ClothesEnums.swift */,
+			);
+			path = TMSHw3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +175,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADB21E012B18988900AC8342 /* HomeWork2.swift in Sources */,
+				AD6ED16F2B2260DD00E0B81B /* ClothesEnums.swift in Sources */,
+				AD6ED16D2B2257CB00E0B81B /* BookEnum.swift in Sources */,
+				ADDFAE332B1F76ED003A2EEA /* HomeWork3.swift in Sources */,
 				AD2957902B0F0F8100AAF3AF /* HomeWork1.swift in Sources */,
 				AD29578C2B0F0F8100AAF3AF /* AppDelegate.swift in Sources */,
 				AD29578E2B0F0F8100AAF3AF /* SceneDelegate.swift in Sources */,
