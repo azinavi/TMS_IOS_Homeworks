@@ -18,6 +18,12 @@
 		AD6ED16D2B2257CB00E0B81B /* BookEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6ED16C2B2257CB00E0B81B /* BookEnum.swift */; };
 		AD6ED16F2B2260DD00E0B81B /* ClothesEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6ED16E2B2260DD00E0B81B /* ClothesEnums.swift */; };
 		ADB21E012B18988900AC8342 /* HomeWork2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB21E002B18988900AC8342 /* HomeWork2.swift */; };
+		ADD4EA0E2B2A296600DF0CD1 /* HomeWork5.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD4EA0D2B2A296600DF0CD1 /* HomeWork5.swift */; };
+		ADD4EA102B2A2ABF00DF0CD1 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD4EA0F2B2A2ABF00DF0CD1 /* Student.swift */; };
+		ADD4EA122B2A2B3F00DF0CD1 /* SubjectStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD4EA112B2A2B3F00DF0CD1 /* SubjectStudent.swift */; };
+		ADD4EA142B2A2B4D00DF0CD1 /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD4EA132B2A2B4D00DF0CD1 /* Teacher.swift */; };
+		ADD4EA182B2A3B4900DF0CD1 /* GradeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD4EA172B2A3B4900DF0CD1 /* GradeEnum.swift */; };
+		ADD4EA1A2B2AD36900DF0CD1 /* SubjectTeacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD4EA192B2AD36900DF0CD1 /* SubjectTeacher.swift */; };
 		ADDFAE332B1F76ED003A2EEA /* HomeWork3.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDFAE322B1F76ED003A2EEA /* HomeWork3.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +41,12 @@
 		AD6ED16C2B2257CB00E0B81B /* BookEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookEnum.swift; sourceTree = "<group>"; };
 		AD6ED16E2B2260DD00E0B81B /* ClothesEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothesEnums.swift; sourceTree = "<group>"; };
 		ADB21E002B18988900AC8342 /* HomeWork2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWork2.swift; sourceTree = "<group>"; };
+		ADD4EA0D2B2A296600DF0CD1 /* HomeWork5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWork5.swift; sourceTree = "<group>"; };
+		ADD4EA0F2B2A2ABF00DF0CD1 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		ADD4EA112B2A2B3F00DF0CD1 /* SubjectStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectStudent.swift; sourceTree = "<group>"; };
+		ADD4EA132B2A2B4D00DF0CD1 /* Teacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
+		ADD4EA172B2A3B4900DF0CD1 /* GradeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeEnum.swift; sourceTree = "<group>"; };
+		ADD4EA192B2AD36900DF0CD1 /* SubjectTeacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectTeacher.swift; sourceTree = "<group>"; };
 		ADDFAE322B1F76ED003A2EEA /* HomeWork3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWork3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,6 +73,7 @@
 		AD29577F2B0F0F8100AAF3AF = {
 			isa = PBXGroup;
 			children = (
+				ADD4EA0C2B2A294E00DF0CD1 /* TMSHw5 */,
 				ADB21E022B1898D200AC8342 /* Main Folder */,
 				AD0270BC2B261FE100E5DD1F /* TMSHw4 */,
 				ADDFAE312B1F756B003A2EEA /* TMSHw3 */,
@@ -105,6 +118,19 @@
 				AD2957962B0F0F8200AAF3AF /* LaunchScreen.storyboard */,
 			);
 			path = "Main Folder";
+			sourceTree = "<group>";
+		};
+		ADD4EA0C2B2A294E00DF0CD1 /* TMSHw5 */ = {
+			isa = PBXGroup;
+			children = (
+				ADD4EA0D2B2A296600DF0CD1 /* HomeWork5.swift */,
+				ADD4EA0F2B2A2ABF00DF0CD1 /* Student.swift */,
+				ADD4EA132B2A2B4D00DF0CD1 /* Teacher.swift */,
+				ADD4EA112B2A2B3F00DF0CD1 /* SubjectStudent.swift */,
+				ADD4EA172B2A3B4900DF0CD1 /* GradeEnum.swift */,
+				ADD4EA192B2AD36900DF0CD1 /* SubjectTeacher.swift */,
+			);
+			path = TMSHw5;
 			sourceTree = "<group>";
 		};
 		ADDFAE312B1F756B003A2EEA /* TMSHw3 */ = {
@@ -191,12 +217,18 @@
 				ADB21E012B18988900AC8342 /* HomeWork2.swift in Sources */,
 				AD6ED16F2B2260DD00E0B81B /* ClothesEnums.swift in Sources */,
 				AD0270BE2B26200000E5DD1F /* HomeWork4.swift in Sources */,
+				ADD4EA102B2A2ABF00DF0CD1 /* Student.swift in Sources */,
+				ADD4EA142B2A2B4D00DF0CD1 /* Teacher.swift in Sources */,
+				ADD4EA122B2A2B3F00DF0CD1 /* SubjectStudent.swift in Sources */,
 				AD6ED16D2B2257CB00E0B81B /* BookEnum.swift in Sources */,
 				ADDFAE332B1F76ED003A2EEA /* HomeWork3.swift in Sources */,
 				AD0270C02B26319B00E5DD1F /* HelperMethods.swift in Sources */,
 				AD2957902B0F0F8100AAF3AF /* HomeWork1.swift in Sources */,
+				ADD4EA0E2B2A296600DF0CD1 /* HomeWork5.swift in Sources */,
 				AD29578C2B0F0F8100AAF3AF /* AppDelegate.swift in Sources */,
+				ADD4EA182B2A3B4900DF0CD1 /* GradeEnum.swift in Sources */,
 				AD29578E2B0F0F8100AAF3AF /* SceneDelegate.swift in Sources */,
+				ADD4EA1A2B2AD36900DF0CD1 /* SubjectTeacher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
